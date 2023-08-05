@@ -1,9 +1,7 @@
+
 <?php
-
-$numero1 =7;
-$numero2 =27;
-
- while( $numero1 < $numero2){
-    echo "$numero1 <br>";
-    $numero1++;
- }
+$valor1 = 2;
+$valor2 = 7;
+$resultado = ($valor1 + $valor2) * $valor1;
+echo $resultado;
+?>
